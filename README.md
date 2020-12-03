@@ -1,7 +1,7 @@
 # Blog Rendering using Asynchronous Javascript
 
 This project demonstrates rendering of blog in the web page in asynchronize fashion.
-User can see the rendering of web page without actually loading whole conent of the webpage instead it will fetch data asynchronisely.
+User can see the rendering of web page without actually loading whole content of the webpage instead it will fetch data asynchronisely.
 
 :information_source: User should note that while rendering new blogs the url is not changing actually the content of the webpage is changing.
 
