@@ -16,6 +16,7 @@ body {
 
 header {
     width: 100%;
+    background-color: burlywood;
 }
 
 .navigation-container {
@@ -27,6 +28,10 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.container-logo{
+    margin-top: 5px;
 }
 
 .links-container .navigation-list {
@@ -83,8 +88,7 @@ main {
 }
 
 aside {
-    outline: solid black;
-
+    border: 2px solid black;
     width: 30%;
     text-align: center;
 }
@@ -119,4 +123,41 @@ aside {
 .aside-list-item li:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    margin: 50px;
+    line-height: 50px;
+}
+.social_media_links{
+    align-items: space-around;
+}
+
+@media(max-width: 560px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        border: none;
+    }
+   
+}
+@media(max-width: 330px){
+ .links-container{
+        visibility: hidden;
+    }
+    #blog-search{
+        transition: none;
+    }
+    .screen-to-render{
+        font-size: 10px;
+        align-items: flex-start;
+    }
+    aside{
+        border-top: 1px solid black;
+        width: 100%;
+        font-size: 10px;
+    }
 }
