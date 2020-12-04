@@ -9,4 +9,4 @@ User can see the rendering of web page without actually loading whole content of
 
 :x: When a certain breakpoint of screen reaches the navigation links like home button and all will be hidden, in future it will be hidden under hamburger menu.
 
-The live link for the project can be found here:- https://ajin.github.io/BLOG_RENDERING
+The live link for the project can be found here:- https://ajin998.github.io/BLOG_RENDERING
